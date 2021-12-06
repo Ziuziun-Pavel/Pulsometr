@@ -1,0 +1,30 @@
+@import '../base/variables';
+
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 108px 0;
+    background: url("../img/shoe_bg.jpg") center (center / cover) no-repeat;
+    &_title {
+        font-weight: bold;
+        font-size: 36px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &_subtitle {
+        margin-top: 8px;
+        margin-bottom: 36px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        color: white;
+        border: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}

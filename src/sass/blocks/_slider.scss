@@ -1,0 +1,30 @@
+.carousel {
+    padding: 81px 0;
+    &-inner {
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        position: absolute;
+        background-color: #fff;
+        border: none;
+        top: 50%;
+        left: -66px;
+        transform: translateY(-50%);
+        opacity: 1;
+        button {
+            border: none;
+            background: #fff;
+            outline: none;
+        }
+        img {
+            height: 50px;
+            width: 31px;
+        }
+    }
+    .carousel-control-next {
+        right: -66px;
+        left: auto;
+    }
+}

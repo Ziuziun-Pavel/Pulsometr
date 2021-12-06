@@ -1,0 +1,43 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+.advantages {
+    min-height: 473px;
+    padding: 73px 0 83px 0;
+    background: #F6F6F6;
+    .title {
+        @include title();
+    }
+    &_items {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-align: center;      
+    } 
+    &_item {
+        margin-top: 60px;
+    .item_title {
+        margin-top: 35px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+        color: #0D0D0D;
+        }
+    .item_descr {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        color: #0D0D0D;
+        a {
+            text-decoration-line: underline;
+            color: $main_color;
+        }
+    }
+    }
+    &_icon {
+        &__animated {
+            animation: heartbeats 1.5s ease infinite;
+    }
+    }
+}
